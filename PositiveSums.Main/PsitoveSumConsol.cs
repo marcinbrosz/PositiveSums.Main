@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace PositiveSums.Main
 {
-    class Program
+    class PsitoveSumConsol
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(PositiveSum.Library.PositiveSum.PosSum(new int[] {}));
+
+            Console.WriteLine("Press enter to close...");
+            Console.ReadLine();
+
         }
     }
 }
